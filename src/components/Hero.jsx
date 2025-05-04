@@ -91,16 +91,17 @@ const Hero = () => {
             justifyContent: 'center',
             marginBottom: '3rem'
           }}>
-            <button className="manga-button" style={{
+            <a href='#Projects' className="manga-button" style={{
               fontSize: '1.1rem',
               padding: '1rem 2rem',
               transform: 'skew(-10deg)',
               border: '2px solid var(--manga-black)',
-              boxShadow: '4px 4px 0 var(--manga-black)'
+              boxShadow: '4px 4px 0 var(--manga-white)',
+              color: '#fff'
             }}>
               View Projects
-            </button>
-            <button className="manga-button" style={{
+            </a>
+            <a href='#Contact' className="manga-button" style={{
               fontSize: '1.1rem',
               padding: '1rem 2rem',
               background: 'transparent',
@@ -110,7 +111,7 @@ const Hero = () => {
               boxShadow: '4px 4px 0 var(--manga-accent)'
             }}>
               Contact Me
-            </button>
+            </a>
           </div>
           <div style={{
             display: 'flex',
