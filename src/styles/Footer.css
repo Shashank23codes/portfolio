@@ -1,0 +1,85 @@
+.manga-footer {
+  padding: 4rem 2rem;
+  background: var(--manga-black);
+  color: var(--manga-white);
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--manga-accent);
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: var(--manga-white);
+  text-decoration: none;
+  display: inline-block;
+  transform: skew(-5deg);
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: var(--manga-accent);
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-link {
+  color: var(--manga-white);
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 2px solid var(--manga-accent);
+  transform: rotate(-2deg);
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background: var(--manga-accent);
+  transform: rotate(0deg);
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.newsletter-input {
+  padding: 0.5rem;
+  border: 2px solid var(--manga-accent);
+  background: transparent;
+  color: var(--manga-white);
+  transform: skew(-5deg);
+}
+
+.newsletter-button {
+  padding: 0.5rem 1rem;
+  background: var(--manga-accent);
+  border: none;
+  color: white;
+  transform: skew(-5deg);
+  cursor: pointer;
+}
+
+.copyright {
+  margin-top: 3rem;
+  text-align: center;
+  border-top: 1px solid var(--manga-accent);
+  padding-top: 1rem;
+}
